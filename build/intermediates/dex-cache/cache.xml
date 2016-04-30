@@ -2,32 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-21dfbfaeea0d810f05a546e19fa104f364b6c4fe.jar" />
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-b20ff239ccc4fb544f8d6f28531300a3b4030664.jar" />
     </item>
     <item
-        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-fd42d75b6d2daa3c51f1002bbba06f18f294f1a7.jar" />
-    </item>
-    <item
-        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-2581fac43be9f5bdfd3958a902f91aee904d8b34.jar" />
-    </item>
-    <item
-        jar="/home/ankit/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-2535783d592a82cba5a58a4d7e89dd04a178fd16.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-d12d7e58ac037e081be99eac038b814fea7b1995.jar" />
     </item>
 
 </items>

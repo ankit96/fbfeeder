@@ -25,14 +25,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     String USER_AGENT = "Mozilla/5.0";
     String responsedata;
-    Button nytimes,toi;
+    Button nytimes,toi,facebook,cristiano,shakira,eminem,sachin,ghosal,bachchan;
     String list[]=new String[100];
+    String content[]=new String[100];
+    String Edata[]=new String[100];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+    /*
+    * facebook
+cristiano
+shakira
+vin diesel
+coco-cola
+fc barcelonna
+eminem
+real madrid
+leo messi*/
     @Override
     protected void onStart() {
         super.onStart();
@@ -40,6 +51,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         nytimes.setOnClickListener(this); // calling onClick() method
         toi = (Button) findViewById(R.id.fetchtoi);
         toi.setOnClickListener(this);
+        facebook = (Button) findViewById(R.id.fetchfacebook);
+        facebook.setOnClickListener(this);
+        cristiano = (Button) findViewById(R.id.fetchcristiano);
+        cristiano.setOnClickListener(this);
+        shakira = (Button) findViewById(R.id.fetchshakira);
+        shakira.setOnClickListener(this);
+        eminem = (Button) findViewById(R.id.fetcheminem);
+        eminem.setOnClickListener(this);
+        sachin = (Button) findViewById(R.id.fetchsachin);
+        sachin.setOnClickListener(this);
+        ghosal = (Button) findViewById(R.id.fetchghoshal);
+        ghosal.setOnClickListener(this);
+        bachchan = (Button) findViewById(R.id.fetchbachchan);
+        bachchan.setOnClickListener(this);
+
+
+
 
 
         //datatext.setText(responsedata.toString());
@@ -59,6 +87,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fetchdata("TimesofIndia");
                 break;
 
+            case R.id.fetchfacebook:
+                fetchdata("facebook");
+                break;
+
+            case R.id.fetchcristiano:
+                fetchdata("cristiano");
+                break;
+
+            case R.id.fetchshakira:
+                fetchdata("shakira");
+                break;
+
+
+
+            case R.id.fetcheminem:
+                fetchdata("eminem");
+                break;
+            case R.id.fetchghoshal:
+                fetchdata("shreyaghoshal");
+                break;
+            case R.id.fetchsachin:
+                fetchdata("SachinTendulkar");
+                break;
+            case R.id.fetchbachchan:
+                fetchdata("AmitabhBachchan");
+                break;
+
 
 
             default:
@@ -69,8 +124,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         public void handleMessage(String msg) {
             //Log.d("tikna","1  "+msg);
             Intent intent = new Intent(MainActivity.this, page1.class);
-            intent.putExtra("data", msg);
+            //intent.putExtra("data", msg);
             intent.putExtra("datalist",list);
+            intent.putExtra("datacontent",content);
             startActivity(intent);
 
         }
@@ -112,13 +168,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     String inputLine;
                     StringBuffer response = new StringBuffer();
                     int i=0;
-
+                    list[0]="";
+                   content[0]="";
+                    Edata[0]="";
                     while ((inputLine = in.readLine()) != null) {
                         response.append(inputLine);
                         if(!inputLine.equals(""))
                         {
-                            list[i] = inputLine;
-                            i=i+1;
+                            if(!inputLine.contains(":")&&!inputLine.contains("-")&&!inputLine.contains("/"))
+                            list[i] =list[i]+"\n\n"+ inputLine;
+                            else
+                            content[i]=content[i]+"\n\n"+inputLine;
+
+
+                            if(inputLine.contains(":")&&inputLine.contains("-")&&!inputLine.contains("/"))
+                            {i=i+1;
+                            list[i]="";
+                                content[i]="";
+                                Edata[i]="";
+
+                            }
                         }
 
 
@@ -127,7 +196,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     //print result
 
-                   // Log.e("tikna", response.toString());
+                   Log.e("tikna", response.toString());
                     //print result
                     handleMessage(response.toString());
                     in.close();
@@ -138,7 +207,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 } catch (Exception e1) {
-                    Log.e("tikna", e1.toString());
+                    Log.e("tikna", "er" +e1.toString());
                 }
 
             }

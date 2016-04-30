@@ -13,10 +13,7 @@
         android:id="@+id/fetchnytimes"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="65dp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -25,7 +22,70 @@
         android:id="@+id/fetchtoi"
         android:layout_alignTop="@+id/fetchnytimes"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="49dp"
-        android:layout_marginEnd="49dp" />
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/fetchfacebook"
+        android:layout_alignTop="@+id/fetchtoi"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CR7"
+        android:id="@+id/fetchcristiano"
+        android:layout_below="@+id/fetchnytimes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="63dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shakira"
+        android:id="@+id/fetchshakira"
+        android:layout_alignTop="@+id/fetchcristiano"
+        android:layout_alignLeft="@+id/fetchfacebook"
+        android:layout_alignStart="@+id/fetchfacebook" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eminem"
+        android:id="@+id/fetcheminem"
+        android:layout_alignTop="@+id/fetchshakira"
+        android:layout_alignLeft="@+id/fetchtoi"
+        android:layout_alignStart="@+id/fetchtoi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shreya"
+        android:id="@+id/fetchghoshal"
+        android:layout_below="@+id/fetchcristiano"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amitabh"
+        android:id="@+id/fetchbachchan"
+        android:layout_alignTop="@+id/fetchghoshal"
+        android:layout_alignLeft="@+id/fetcheminem"
+        android:layout_alignStart="@+id/fetcheminem" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sachin"
+        android:id="@+id/fetchsachin"
+        android:layout_alignBottom="@+id/fetchbachchan"
+        android:layout_alignLeft="@+id/fetchshakira"
+        android:layout_alignStart="@+id/fetchshakira" />
+
 </RelativeLayout>

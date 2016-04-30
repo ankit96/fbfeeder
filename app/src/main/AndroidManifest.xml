@@ -3,6 +3,7 @@
     package="com.example.ankit.fbtry" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -19,6 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".page1" >
+        </activity>
+        <activity
+            android:name=".details"
+            android:label="@string/title_activity_details"
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
 

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fbtry</string>
+    <string name="title_activity_details">details</string>
 </resources>
