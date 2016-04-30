@@ -1,0 +1,1000 @@
+  751  dmesg -c
+  752  gedit /usr/src/linux-headers-4.2.0-22/include/linux/sched.h
+  753  cd Desktop
+  754  history > op.txt
+  755  gedit op.txt
+  756  gedit /usr/src/linux-headers-4.2.0-22/include/linux/sched.h
+  757  gsettings set org.gnome.settings-daemon.plugins.xsettings overrides '@a{sv} {"Gtk/ShellShowsAppMenu": <int32 0>}'
+  758  cd Kernel_Programming/
+  759  cd Ex3
+  760  make
+  761  sudo -s
+  762  insmod ex04.ko
+  763  dmesg -c
+  764  cd Desktop/Kernel_Programming/
+  765  cd Ex3
+  766  ls
+  767  make
+  768  insmod ex04.ko
+  769  sudo -s
+  770  insmod ex04.ko
+  771  dmesg -c
+  772  insmod ex04.ko
+  773  rmmod ex04.ko
+  774  make
+  775  insmod ex04.ko
+  776  dmesg -c
+  777  make
+  778  insmod ex04.ko
+  779  rmmod ex04.ko
+  780  insmod ex04.ko
+  781  dmesg -c
+  782  lsmod
+  783  insmod sec_mod.c
+  784  insmod sec_mod.ko
+  785  dmesg -c
+  786  cd pycharm/pycharm-edu-2.0.3/bin
+  787  ./pycharm.sh 
+  788  cd pycharm/pycharm-edu-2.0.3/bin
+  789  ./pycharm.sh 
+  790  history
+  791  pip install pipreqs
+  792  hsitory
+  793  history
+  794  easy_install pipreqs
+  795  pipreqs /home/ankit/Desktop/moodler
+  796  pip show request
+  797  pip show requests
+  798  cd home/ankit/Downloads/pycharm-5.0.4/bin
+  799  /home/ankit/Downloads/pycharm-5.0.4/bin
+  800  cd /home/ankit/Downloads/pycharm-5.0.4/bin
+  801  ./pycharm.sh 
+  802  sudo -s
+  803  cd /home/ankit/Downloads/pycharm-5.0.4/bin
+  804  ./pycharm.sh 
+  805  sudo apt-get install python-virtualenv
+  806  sudo pip install Flask
+  807  easy_install pip
+  808  sudo -s
+  809  easy_install pip
+  810  pip install Flask
+  811  apt-get update 
+  812  apt-get install python-pip
+  813  pip install Flask
+  814  sudo chmod -R a+rX /usr/local/lib/python2.7/dist-packages/
+  815  sudo chmod -R a+rX /usr/local/lib/python3.3/dist-packages/
+  816  pip install Flask
+  817  ls -lA /usr/local/bin | grep pip
+  818  pip3 install Flask
+  819  pip3.4 install Flask
+  820  python get-pip.py
+  821  cd /home
+  822  python get-pip.py
+  823  ls
+  824  cd ankit
+  825  ls
+  826  python get-pip.py
+  827  pip install Flask
+  828  cd slackbot/
+  829  ls
+  830  python3 4.py >op17-2.txt
+  831  gedit op17-2.txt 
+  832  cd /home/ankit/android-studio/bin
+  833  ./studio.sh 
+  834  subl
+  835  sublime-text 
+  836  sudo add-apt-repository ppa:webupd8team/sublime-text-2
+  837  sudo apt-get update
+  838  sudo apt-get install sublime-text
+  839  subl
+  840  cd Desktop/ds5/
+  841  javac *.java
+  842  java MultiThreadChatClient 
+  843  javac *.java
+  844  java MultiThreadChatClient 
+  845  cd slackbot/
+  846  python3 3.py >18-2.txt
+  847  python3 4.py >18-2.txt
+  848  python3 4.py >18-2-16.txt
+  849  python3 4.py >18-2.txt
+  850  cd ..
+  851  cd Desktop/bot18-\,7\:402/
+  852  python3 moodle.py
+  853  cd ..
+  854  cd moodler
+  855  git status
+  856  git add app.json
+  857  git status
+  858  git add all
+  859  git add Procfile app.py config.py moodle.py requirements.txt 
+  860  git status
+  861  git commit -m "app running on slack"
+  862  git status
+  863  git push
+  864  git  help
+  865  git push
+  866  git status
+  867  git add demo.gif 
+  868  git status
+  869  git commit -m "Added gif"
+  870  git status
+  871  git push
+  872  git ststus
+  873  git status
+  874  git add app.py moodle.py 
+  875  git status
+  876  git commit -m "Removed all unnecessary comments"
+  877  git push
+  878  git pull
+  879  pull
+  880  git pul
+  881  git pull
+  882  git push
+  883  cd android-studio/
+  884  cd bin
+  885  ./studio.sh 
+  886  egrep -c '(vmx|svm)' /proc/cpuinfo
+  887  sudo apt-get install cpu-checker
+  888  sudo kvm-ok
+  889  uname -m
+  890  sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+  891  sudo adduser `id -un` kvm
+  892  sudo adduser `id -un` libvirtd
+  893  cd android-studio/bin
+  894  ls
+  895  ./studio.sh 
+  896  sudo aptitude install kvm libvirt-bin ubuntu-vm-builder bridge-utils
+  897  sudo apt-get install aptitude
+  898  sudo aptitude install kvm libvirt-bin ubuntu-vm-builder bridge-utils
+  899  sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+  900  sudo aptitude install kvm libvirt-bin ubuntu-vm-builder bridge-utils
+  901  sudo adduser `id -un` libvirtd
+  902  groups
+  903  sudo adduser `id -un` kvm
+  904  sudo adduser `id -un` libvirtd
+  905  ls -l /dev/kvm
+  906  sudo usermod -a -G libvirtd,kvm ankit
+  907  ls -l /dev/kvm
+  908  ls /dev
+  909  ls -l /dev/kvm
+  910  rmmod kvm
+  911  sudo -s
+  912  rmmod kvm
+  913  modprobe -a kvm
+  914  ls -l /dev
+  915  kvm-ok 
+  916  sudo modprobe kvm_intel
+  917  virsh -c qemu:///system list
+  918  sudo ls -la /var/run/libvirt/libvirt-sock
+  919  ls -l /dev/kvm
+  920  cd android-studio/bin
+  921  ./studio.sh 
+  922  cd android-studio/bin
+  923  ./studio.sh 
+  924  cd android-studio/bin
+  925  ./studio.sh 
+  926  grep -c "svm\|vmx" /proc/cpuinfo
+  927  apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
+  928  sudo adduser ankit
+  929  adduser ankit libvirtd
+  930  virsh -c qemu:///system list
+  931  virt-manager
+  932  ls /dev/kvm
+  933  ls /dev
+  934  kvm-ok
+  935  sudo -s
+  936  cd android-studio/bin
+  937  ./studio.sh 
+  938  cd slackbot/
+  939  gedit 5.py
+  940  python3 5.py>20.txt
+  941  cd Desktop/mal/mal
+  942  python NLP\ \(2\).py 
+  943  cd ..
+  944  cd nltk_data/stat_parser/
+  945  python NLP.py
+  946  ls
+  947  cd ..
+  948  python NLP.py 
+  949  python 1.py 
+  950  cd ..
+  951  cd Dropbox/Apps/Heroku/spitmoodler/
+  952  sudo -s
+  953  pip freeze > requirements.txt
+  954  heroku run python
+  955  heroku --version
+  956  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  957  heroku login
+  958  heroku pg:promote HEROKU_POSTGRESQL_COLOR
+  959  heroku pg:promote HEROKU_POSTGRESQL_COLOR --app spitmoodler
+  960  heroku addons:create heroku-postgresql:hobby-dev -app spitmoodler
+  961  heroku addons:create heroku-postgresql:hobby-dev --app spitmoodler
+  962  heroku pg:promote HEROKU_POSTGRESQL_COLOR
+  963  heroku addons:add heroku-postgresql:dev
+  964  heroku addons:add heroku-postgresql:dev -app spitmoodler
+  965  heroku addons:add heroku-postgresql:dev --app spitmoodler
+  966  heroku addons:create heroku-postgresql:dev --app spitmoodler
+  967  heroku addons | grep POSTGRES
+  968  heroku addons:create heroku-postgresql:hobby-dev
+  969  heroku addons:create heroku-postgresql:hobby-dev --app spitmoodler
+  970  heroku pg:wait
+  971  heroku pg:wait --app spitmoodler
+  972  heroku config -s | grep HEROKU_POSTGRESQL
+  973  heroku config -s | grep HEROKU_POSTGRESQL --app spitmoodler
+  974  heroku config -app spitmoodle -s | grep HEROKU_POSTGRESQL
+  975  heroku config --app spitmoodle -s | grep HEROKU_POSTGRESQL
+  976  heroku config --app spitmoodler -s | grep HEROKU_POSTGRESQL
+  977  heroku config -s 
+  978  heroku config -s --app spitmoodler
+  979  heroku pg:info
+  980  heroku pg:info --app spitmoodler
+  981  which psql
+  982  psql
+  983  git commit -a -m "added DB boilerplate"
+  984  python -c "import nltk; print nltk.__version__"
+  985  git clone https://github.com/heroku/python-getting-started.git
+  986  cd python-getting-started/
+  987  sudo apt-get install postgresql
+  988  sudo apt-get install python-psycopg2
+  989  sudo apt-get install libpq-dev
+  990  sudo -s
+  991  createdb python_getting_started
+  992  heroku logs --tail
+  993  heroku logs --tail --app spitmoodler
+  994  heroku ps
+  995  heroku ps --app spitmoodler
+  996  cd Dropbox/Apps/Heroku/spitmoodler/
+  997  source venv/bin/activate
+  998  virtualenv venv
+  999  source venv/bin/activate
+ 1000  pip install -r requirements.txt
+ 1001  python manage.py collectstatic
+ 1002  heroku local web
+ 1003  heroku addons
+ 1004  heroku config
+ 1005  heroku config --app spitmoodler
+ 1006  heroku pg
+ 1007  heroku pg --app spitmoodler
+ 1008  createdb test
+ 1009  sudo su - postgres
+ 1010  ls
+ 1011  heroku pg:wait
+ 1012  heroku pg:wait --app spitmoodler
+ 1013  heroku pg:info--app spitmoodler
+ 1014  heroku pg:info --app spitmoodler
+ 1015  heroku pg:diagnose --app spitmoodler
+ 1016  export DATABASE_URL=postgres:///$(whoami)
+ 1017  sudo su - postgres
+ 1018  heroku pg:info --app spitmoodler
+ 1019  heroku pg:psql --app spitmoodler
+ 1020  heroku pg:ps
+ 1021  heroku pg:ps --app spitmoodler
+ 1022  pip install psycopg2
+ 1023  heroku info
+ 1024  heroku info --app spitmoodler
+ 1025  heroku config
+ 1026  heroku config --app spitmoodler
+ 1027  which psql
+ 1028  heroku login
+ 1029  /Users/rbriggs/src/github.com/heroku/heroku-cli/Godeps/_workspace/src/github.com/stvp/rollbar/rollbar.go:78 +0x5c
+ 1030  sudo apt-get remove heroku-toolbelt
+ 1031  sudo apt-get install ruby-full
+ 1032  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1033  heroku login
+ 1034  heroku logs --tail
+ 1035  sudo -s
+ 1036  cd python-getting-started/
+ 1037  createdb python_getting_started
+ 1038  cd ..
+ 1039  createdb python_getting_started
+ 1040  sudo -s
+ 1041  sudo su - postgres
+ 1042  cd python-getting-started/
+ 1043  python manage.py migrate
+ 1044  python manage.py collectstatic
+ 1045  sudo su - postgres
+ 1046  python manage.py migrate
+ 1047  heroku local
+ 1048  heroku open
+ 1049  cd Dropbox/Apps/Heroku/spitmoodler/
+ 1050  python3 app.py
+ 1051  sudo service postgresql start
+ 1052  heroku pg:psql --app spitmoodler DATABASE
+ 1053  sudo -s
+ 1054  heroku pg:psql --app spitmoodler DATABASE
+ 1055  heroku pg:credentials DATABASE
+ 1056  heroku pg:credentials DATABASE --app spitmoodler
+ 1057  heroku pg:psql --app spitmoodler DATABASE
+ 1058  heroku pg:credentials DATABASE --app spitmoodler
+ 1059  python manage.py collectstatic
+ 1060  cd Dropbox/Apps/Heroku/spitmoodler/
+ 1061  python app.py collectstatic
+ 1062  sudo su - postgres
+ 1063  sudo apt-get install pgadmin3
+ 1064  cd android-studio/bin/
+ 1065  ./studio.sh 
+ 1066  cd Dropbox/Apps/Heroku/spitmoodler/
+ 1067  pip install psycopg2
+ 1068  pip freeze > requirements.txt
+ 1069  heroku config -s | grep HEROKU_POSTGRESQL
+ 1070  sudo -s
+ 1071  heroku config -s | grep HEROKU_POSTGRESQL
+ 1072  heroku config -s | grep HEROKU_POSTGRESQL --app so=pitmoodler
+ 1073  heroku config -s | grep HEROKU_POSTGRESQL --app spitmoodler
+ 1074  heroku config -s | grep HEROKU_POSTGRESQL
+ 1075  heroku config -s | grep HEROKU_POSTGRESQL -- app spitmoodler
+ 1076  heroku config -s | grep HEROKU_POSTGRESQL --app spitmoodler
+ 1077  heroku pg:info --app spitmoodler
+ 1078  heroku logs -t
+ 1079  heroku logs -t --app spitmoodler
+ 1080  sudo apt-get build-dep python-psycopg2
+ 1081  cd Dropbox/Apps/Heroku/spitmoodler/
+ 1082  pip freeze
+ 1083  pip freeze >requirements.txt
+ 1084  heroku addons:create scheduler:standard
+ 1085  heroku addons:create scheduler:standard --app spitmoodler
+ 1086  pip install slackclient
+ 1087  heroku ps:scale clock=1
+ 1088  heroku ps:scale clock=1 --app spitmoodler
+ 1089  heroku ps:scale 
+ 1090  heroku ps:scale  --app spitmoodler
+ 1091  heroku pg:info --app spitmoodler
+ 1092  heroku pg:info
+ 1093  heroku ps:scale web=0 --app spitmoodler
+ 1094  heroku ps:scale clock=1 --app spitmoodler
+ 1095  heroku addons:create scheduler:standard
+ 1096  sudo -s
+ 1097  heroku ps:scale web=0 --app spitmoodlereminder 
+ 1098  heroku ps:scale clock=1 --app spitmoodlereminder 
+ 1099  cd ..
+ 1100  cd spitmoodlereminder
+ 1101  heroku config:set DATABASE_URL=`heroku config:get DATABASE_URL -a spitmoodler`--app spitmoodlereminder
+ 1102  heroku config:set DATABASE_URL=`heroku config:get DATABASE_URL -app spitmoodler`--app spitmoodlereminder
+ 1103  heroku config:set DATABASE_URL=`postgres://aoqfgpcbnlwuat:FSm2OLpubzgXYM_bSNv3PzYHaD@ec2-107-20-153-141.compute-1.amazonaws.com:5432/dbsq99cd6govf2' --app spitmoodlereminder
+ 1104  heroku addons:attach postgresql-pointy-48963 -a --app spitmoodlereminder
+ 1105  heroku addons
+ 1106  heroku addons:attach postgresql-pointy-48963 -a spitmoodlereminder
+ 1107  heroku logs --tail --app spitmoodlereminder
+ 1108  cd Dropbox/Apps/Heroku/spitmoodler/
+ 1109  sudo -s
+ 1110  npm install slackbots
+ 1111  sudo apt-get install npm
+ 1112  sudo apt-get install slack
+ 1113  slack --slack-api-token=xoxs-20179839570-20180699536-20179310881-824d8150aa auth test
+ 1114  cd Dropbox/
+ 1115  cd Apps/Heroku/spitmoodlereminder
+ 1116  python reminder.py
+ 1117  heroku logs --tail --app spitmoodlereminder
+ 1118  heroku logs --tail --app spitmoodler
+ 1119  sudo -s
+ 1120  pip install slacker
+ 1121  heroku logs --tail --app spitmoodlereminder
+ 1122  cd moodler/
+ 1123  git status
+ 1124  git add README.md app.py moodle.py requirements.txt setuser.py venv/
+ 1125  git commit -m "proper working "
+ 1126  git status
+ 1127  git add all
+ 1128  git add All
+ 1129  git add ALL
+ 1130  git add app.py moodle.py
+ 1131  git commit -m "comments removed"
+ 1132  git status
+ 1133  git push
+ 1134  git status
+ 1135  heroku logs --tail --app spitmoodlereminder
+ 1136  heroku logs --tail --app spitmoodler
+ 1137  cd moodler
+ 1138  git status
+ 1139  git add app.py moodle.py requirements.txt  setuser.py README.md 
+ 1140  git commit -m "bugs removal + encryption"
+ 1141  git status
+ 1142  git push 
+ 1143  git pull
+ 1144  git push
+ 1145  git pull
+ 1146  cd ..
+ 1147  cd spitmoodlereminder/
+ 1148  git status
+ 1149  git init
+ 1150  git status
+ 1151  git add .gitignore LICENSE Procfile README.md app.json clock.py moodle.py reminder.py requirements.txt
+ 1152  git commit -m "first commit??"
+ 1153  git remote add origin https://github.com/ankit96/automoodler
+ 1154  git push -u origin master
+ 1155  git pull
+ 1156  git-pull(1) 
+ 1157  git-pull(1)
+ 1158  git merge master
+ 1159  git merge origin/master
+ 1160  git push 
+ 1161  git push --set-upstream origin master
+ 1162  git pull
+ 1163  git add clock.py moodle.py reminder.py requirements.txt
+ 1164  git commit -m "confused "
+ 1165  git pull
+ 1166  git branch --set-upstream-to=origin/master
+ 1167  git pull
+ 1168  git push
+ 1169  git status
+ 1170  git pull
+ 1171  cd ..
+ 1172  cd moodler/
+ 1173  git pull
+ 1174  sudo pip install slackweb
+ 1175  pip install plpy
+ 1176  sudo -s
+ 1177  cd Charmander/
+ 1178  git pull
+ 1179  sudo -s
+ 1180  heroku logs --tail --app spitmoodler
+ 1181  cd moodler
+ 1182  git status
+ 1183  git pull
+ 1184  git status
+ 1185  git add app.py moodle.py setuser.py
+ 1186  git commit -m "added error handling"
+ 1187  suod -s
+ 1188  sudo -s
+ 1189  heroku logs --tail --app spitmoodler git commit -m "added error handling"
+ 1190  git status
+ 1191  git push
+ 1192  cd ..
+ 1193  cd spitmoodlereminder/
+ 1194  git status
+ 1195  git add moodle.py reminder.py
+ 1196  git commit -m "added error handling"
+ 1197  git push
+ 1198  cd Desktop/
+ 1199  javac lamport.java 
+ 1200  java lamport
+ 1201  java
+ 1202  java -version
+ 1203  cd android-studio/bin
+ 1204  ./studio.sh 
+ 1205  cd android-studio/bin
+ 1206  ./studio.sh 
+ 1207  cd moodler/
+ 1208  git status
+ 1209  git pull
+ 1210  cd android-studio/bin
+ 1211  ./studio.sh 
+ 1212  cd android-studio/bin
+ 1213  ./studio.sh 
+ 1214  cd Desktop/mal/
+ 1215  python ngrams.py
+ 1216  python ngrams.py>op.txt
+ 1217  python ngrams.py
+ 1218  python
+ 1219  cd moodler/
+ 1220  pull
+ 1221  git pull
+ 1222  git status
+ 1223  sudo apt-get upgrade
+ 1224  sudo add-apt-repository ppa:webupd8team/java
+ 1225  sudo apt-get install oracle-java8-installer
+ 1226  sudo -s
+ 1227  apt-get update
+ 1228  sudo apt-get install oracle-java8-installer
+ 1229  java -version
+ 1230  cd android-studio/bin
+ 1231  ./studio.sh 
+ 1232  cd Desktop/mal/
+ 1233  python spellchecker.py
+ 1234  cat /usr/share/dict/words > words.txt
+ 1235  cat /usr/share/dict/words > big.txt
+ 1236  python spellchecker.py
+ 1237  python3
+ 1238  dir
+ 1239  python3
+ 1240  cd Downloads/
+ 1241  gcc p2.c
+ 1242  ./a.out
+ 1243  gcc p2.c
+ 1244  ./a.out
+ 1245  gcc p2.c
+ 1246  ./a.out
+ 1247  gcc p2.c
+ 1248  ./a.out
+ 1249  gcc p2.c
+ 1250  ./a.out
+ 1251  gcc p2.c
+ 1252  ./a.out
+ 1253  gcc p2.c
+ 1254  ./a.out
+ 1255  gcc p2.c
+ 1256  ./a.out
+ 1257  gcc p2.c
+ 1258  ./a.out
+ 1259  cd Dropbox/Apps/Heroku/spitmoodlereminder
+ 1260  ls -a
+ 1261  ls .
+ 1262  ls -ah
+ 1263  ls -a
+ 1264  cd .idea
+ 1265  ls
+ 1266  cat encodings.xml 
+ 1267  python
+ 1268  cd Desktop/mal/
+ 1269  ls
+ 1270  cd test\ 2/
+ 1271  ld
+ 1272  ls
+ 1273  cd 1
+ 1274  cd ..
+ 1275  python
+ 1276  mkdir ank
+ 1277  cd ank
+ 1278  gedit try.py
+ 1279  python try.py
+ 1280  python
+ 1281  cd Desktop/mal/
+ 1282  python collocation.py 
+ 1283  python
+ 1284  cd Desktop/mal/test\ 2/ank
+ 1285  python try.py
+ 1286  python
+ 1287  python try.py
+ 1288  python try.py>op.txt
+ 1289  sudo apt-get apache2
+ 1290  sudo apt-get install apache2
+ 1291  sudo vim etc/apache2/sites-available/default
+ 1292  sudo gedit etc/apache2/sites-available/default
+ 1293  sudo service apache2 restart
+ 1294  cd var/www
+ 1295  cd var/www/html
+ 1296  cd var
+ 1297  pwd
+ 1298  cd ..
+ 1299  cd var/www/html
+ 1300  cd var
+ 1301  ls
+ 1302  cd ankit
+ 1303  ls
+ 1304  cd ..
+ 1305  ls
+ 1306  cd ..
+ 1307  ls
+ 1308  cd var/www/html
+ 1309  sudo  -s
+ 1310  gedit hello.py
+ 1311  chmod 755 hello.py
+ 1312  cd ..
+ 1313  cd ...
+ 1314  cd ..
+ 1315  cd etx/apache2/sites-available
+ 1316  cd etc/apache2/sites-available
+ 1317  ls
+ 1318  gedit default-ssl.conf 
+ 1319  vi default-ssl.conf 
+ 1320  sudo -s
+ 1321  cd etc/apache2/sites-available
+ 1322  cd ..
+ 1323  cd etc/apache2/sites-available
+ 1324  rm default-ssl.conf 
+ 1325  mv /home/ankit/Desktop/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
+ 1326  sudo -s
+ 1327  pwd
+ 1328  cd ..
+ 1329  cd var/www/html
+ 1330  ls
+ 1331  rm index.html
+ 1332  cd ..
+ 1333  cd srv
+ 1334  ls
+ 1335  sudo apt-get install mysql-server
+ 1336  sudo pip3 install pymysql
+ 1337  sudo pip install pymysql
+ 1338  sudo mkdir /var/www/html/test
+ 1339  sudo a2dismod mpm_event
+ 1340  sudo a2enmod mpm_prefork cgi
+ 1341  sudo nano /etc/apache2/sites-enabled/000-default.conf
+ 1342  sudo service apache2 stop
+ 1343  sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
+ 1344  sudo apt-get autoremove
+ 1345  cd etc/
+ 1346  cd etc
+ 1347  cd ..
+ 1348  ls
+ 1349  cd etc
+ 1350  ls
+ 1351  cd apache2/ww
+ 1352  cd apache2
+ 1353  ls
+ 1354  sites-available/
+ 1355  cd sites-available/
+ 1356  ls
+ 1357  sudo -s
+ 1358  sudo gedit default-ssl.conf 
+ 1359  sudo a2enmod cgi
+ 1360  sudo a2enmod cgid
+ 1361  service apache2 restart
+ 1362  sudo gedit default-ssl.conf 
+ 1363  cd ..
+ 1364  sudo apt-get update
+ 1365  sudo apt-get install mysql-server
+ 1366  mysql_secure_installation
+ 1367  sudo mysql_secure_installation
+ 1368  sudo pip install pymysql
+ 1369  sudo apt-get install apache2
+ 1370  cd etc
+ 1371  cd apache2/sites-available/
+ 1372  sudo gedit default-ssl.conf
+ 1373  sudo mkdir /var/www/test
+ 1374  sudo a2dismod mpm_event
+ 1375  sudo a2enmod mpm_prefork cgid
+ 1376  sudo a2enmod mpm_prefork cgi
+ 1377  sudo nano /etc/apache2/sites-enabled/000-default.conf
+ 1378  sudo mkdir /var/www/test
+ 1379  sudo service apache2 restart
+ 1380  mysql -u root -p
+ 1381  sudo nano /var/www/test/index.py
+ 1382  sudo chmod 755 /var/www/test/index.py
+ 1383  sudo gedit default-ssl.conf
+ 1384  ls
+ 1385  cd Charmander/
+ 1386  git pull
+ 1387  pip install git+https://github.com/kivy/python-for-android.git
+ 1388  pip install --upgrade pip
+ 1389  sudo pip install --upgrade pip
+ 1390  sudo -s
+ 1391  sudo apt-get install python-qt4
+ 1392  ls
+ 1393  cd converter/
+ 1394  ls
+ 1395  gedit main.py
+ 1396  python main.py
+ 1397  python3 main.py
+ 1398  gedit main.py
+ 1399  python main.py
+ 1400  gedit main.py
+ 1401  python main.py
+ 1402  sudo apt-get install qtcreator pyqt5-dev-tools
+ 1403  import sys
+ 1404  cd converter/
+ 1405  gedit main.py
+ 1406  sudo -s
+ 1407  import sys
+ 1408  from PyQt4 import QtGui, QtCore
+ 1409  class Window(QtGui.QMainWindow):
+ 1410  run()import sys
+ 1411  from PyQt4 import QtGui, QtCore
+ 1412  class Window(QtGui.QMainWindow):
+ 1413  gedit main.py
+ 1414  python main.py
+ 1415  gedit main.py
+ 1416  python main.py
+ 1417  gedit main.py
+ 1418  python main.py
+ 1419  gedit main.py
+ 1420  python main.py
+ 1421  git clone FirebaseUI-Android
+ 1422  git init
+ 1423  git clone FirebaseUI-Android
+ 1424  git clone https://github.com/firebase/FirebaseUI-Android
+ 1425  cd android-studio/
+ 1426  cd bin
+ 1427  ./studio.sh 
+ 1428  cd android-studio/bin
+ 1429  ./studio.sh 
+ 1430  cd Desktop/mal/
+ 1431  python spellchecker.py
+ 1432  python spellchecker.py grep head -10
+ 1433  python spellchecker.py head -10
+ 1434  python spellchecker.py > opx.txt 
+ 1435  head opx.txt -10
+ 1436  head opx.txt 
+ 1437  python spellchecker.py > opx.txt 
+ 1438  apt-cache policy python-numpy
+ 1439  sudo apt-get install python-numpy
+ 1440  apt-cache policy cython
+ 1441  sudo apt-get install cython
+ 1442  python
+ 1443  pip install numpy
+ 1444  pip install scipy
+ 1445  python 
+ 1446  pip install scipy
+ 1447  pip install matplotlib
+ 1448  cd Desktop/
+ 1449  gcc fizzbuzz.c
+ 1450  ./a
+ 1451  ./a.out
+ 1452  gcc fizzbuzz.c
+ 1453  ./a.out
+ 1454  gcc fizzbuzz.c
+ 1455  ./a.out
+ 1456  gcc fizzbuzz.c
+ 1457  ./a.out
+ 1458  cd android-studio/bin
+ 1459  ./studio.sh 
+ 1460  sudo apt-get install abiword
+ 1461  ifconfig
+ 1462  python
+ 1463  cd Desktop/
+ 1464  gedit fivequeen.python
+ 1465  ping www.google.com
+ 1466  cd /home/ankit/codenation
+ 1467  ls
+ 1468  gcc cpptemplate.cpp
+ 1469  gcc ctemplate.c 
+ 1470  ./a.out
+ 1471  gcc ctemplate.c 
+ 1472  ./a.out
+ 1473  gcc ctemplate.c 
+ 1474  ./a.out
+ 1475  clear
+ 1476  arp -a
+ 1477  netstat -ano/\find /i "listening"
+ 1478  netstat -ano
+ 1479  sudo apt-get update
+ 1480  pip install pyqt4
+ 1481  sudo -s
+ 1482  pip install pyqt
+ 1483  pip install pyqt4
+ 1484  aptitude install python-qt4
+ 1485  sudo apt-get install qtdeclarative5-dev
+ 1486  cd Desktop/
+ 1487  python dmbi2.py
+ 1488  pip install matplotlib
+ 1489  cd android-studio/bin
+ 1490  ./studio.sh 
+ 1491  pip install matplotlib
+ 1492  sudo apt-get install python-matplotlib
+ 1493  python dmbi2.py
+ 1494  sudo apt-get install python-sklearn
+ 1495  python dmbi2.py
+ 1496  cd Desktop/
+ 1497  python dmbi2.py
+ 1498  pip install matplotlib
+ 1499  sudo -a
+ 1500  sudo -s
+ 1501  cd Desktop/
+ 1502  python dmbi2.py
+ 1503  cd /media/ankit/work/ankit/enginerring/sem-6/dmbi
+ 1504  python miniproject.py
+ 1505  cd ..
+ 1506  cd sem6
+ 1507  cd dmbi/
+ 1508  python miniproject.py
+ 1509  python knibatchkmeans.py
+ 1510  cd ..
+ 1511  cd sem-6
+ 1512  cd dmbi
+ 1513  python miniproject.py
+ 1514  cd /media/ankit/work/ankit/enginerring/sem-6/dmbi
+ 1515  python miniproject.py
+ 1516  cd /media/ankit/work/ankit/enginerring/sem-6/dmbi
+ 1517  python miniproject.py
+ 1518  cd /media/ankit/work/ankit/enginerring/sem-6/dmbi
+ 1519  python miniproject.py
+ 1520  cd Deslktop
+ 1521  cd Desktop/
+ 1522  gedit pp.py
+ 1523  python pp.py
+ 1524  cd Apriori-master/
+ 1525  python apriori.py  -f INTEGRATED-DATASET.csv -s 0.17 -c 0.68
+ 1526  cd /media/ankit/work/ankit/enginerring/sem-6/dmbi
+ 1527  python miniproject.py
+ 1528  cd /media/ankit/work/ankit/enginerring/sem-6/dmbi
+ 1529  python miniproject.py
+ 1530  cd android-studio/bin
+ 1531  ./studio.sh 
+ 1532  cd android-studio/bin
+ 1533  ./studio.sh 
+ 1534  cd android-studio/bin
+ 1535  ./studio.sh 
+ 1536  cd android-studio/bin/
+ 1537  ./studio.sh 
+ 1538  ./studio.sh [5~
+ 1539  curl -X POST http://textbelt.com/intl \ -d number=+918097563674 \ -d "message=I sent this message for free with textbelt.com"
+ 1540  curl -X POST http://textbelt.com/intl  -d number=+918097563674  -d "message=I sent this message for free with textbelt.com"
+ 1541  curl -X POST http://textbelt.com/intl  -d number=+9918097563674  -d "message=I sent this message for free with textbelt.com"
+ 1542  curl -X POST http://textbelt.com/intl  -d number=+8097563674  -d "message=I sent this message for free with textbelt.com"
+ 1543  curl -X POST http://textbelt.com/intl  -d number=8097563674  -d message="I sent this message for free with textbelt.com"
+ 1544  cd android-studio/bin
+ 1545  ./studio.sh 
+ 1546  cd android-studio/bin
+ 1547  ./studio.sh 
+ 1548  cd android-studio/bin
+ 1549  ./studio.sh 
+ 1550  cd android-studio/bin
+ 1551  ./studio.sh 
+ 1552  cd Desktop
+ 1553  gedit postreader.py
+ 1554  gedit postreader.py &
+ 1555  python postreader.py
+ 1556  clear
+ 1557  python postreader.py
+ 1558  python sefinalproject.py
+ 1559  clear
+ 1560  cd Desktop/
+ 1561  mkdir ds
+ 1562  cd ds
+ 1563  mkdir exp1
+ 1564  cd exp1
+ 1565  gedit server.java
+ 1566  gedit client.java
+ 1567  javac *.java
+ 1568  java GreetingServer 
+ 1569  java GreetingServer 6066
+ 1570  cd Desktop/ank3/
+ 1571  ./add_client localhost 3 5
+ 1572  cd /media/ankit/work/sem6/ds/ds experiments/ank3
+ 1573  cd /work/sem6/ds/ds experiments/ank3
+ 1574  cd Desktop/
+ 1575  cd ank3/
+ 1576  ./add_server
+ 1577  cd Desktop/ds/exp1
+ 1578  java GreetingClient localhost 6066
+ 1579  cd ..
+ 1580  mkdir exp3
+ 1581  cd exp3
+ 1582  mkdir add.x
+ 1583  sudo apt-get install rpc-bind
+ 1584  sudo apt-get install rpcbind
+ 1585  pcgen -a -C add.x
+ 1586  rpcgen -a -C add.x
+ 1587  mv Makefile.add makefile
+ 1588  make -f makefile 
+ 1589  sudo apt-get install rpcbind
+ 1590  make -f makefile 
+ 1591  sudo./ add_server
+ 1592  rpcgen -a -C add.x
+ 1593  mv Makefile.add makefile
+ 1594  make -f makefile 
+ 1595  sudo apt-get install rpcbindsudo ./add_client localhost
+ 1596  sudo -a
+ 1597  sudo -s
+ 1598  python postreader.pysudo ./add_client localhost
+ 1599  sudo ./add_client localhost
+ 1600  sudo ./add_client localhostclear
+ 1601  clear
+ 1602  cd ..
+ 1603  mkdir exp-3rpcgen -a -C add.x
+ 1604  cd exp-3/
+ 1605  gedit add.x
+ 1606  rpcgen add.x
+ 1607  rpcgen -a -C add.x
+ 1608  mv Makefile.add Makefile
+ 1609  gedit Makefile 
+ 1610  cd Desktop
+ 1611  cd ds_solim/
+ 1612  cd rpc_add/
+ 1613  ./add_client
+ 1614  ./add_client localhost
+ 1615  cd Desktop
+ 1616  mkdir new
+ 1617  cd new
+ 1618  gedit add.x
+ 1619  rpcgen -C -a add.x
+ 1620  mv Makefile.add Makefile
+ 1621  gedit Makefile &
+ 1622  mv Makefile makefile
+ 1623  cd ..
+ 1624  cd ds_solim/
+ 1625  cd rpc_add/
+ 1626  ./add_server
+ 1627  cd Desktop/new
+ 1628  ls
+ 1629  ./add_server
+ 1630  history
+ 1631  ./add_server
+ 1632  5. make -f makefile
+ 1633  make -f makefile
+ 1634  ./add_server 
+ 1635  cd Desktop/new
+ 1636  ./add_client 
+ 1637  ./add_client localhost
+ 1638  cd Desktop/ds_solim/producer/
+ 1639  java pr_co 
+ 1640  history
+ 1641  cd ..
+ 1642  cd ~
+ 1643  cd /media
+ 1644  ls
+ 1645  cd ankit/
+ 1646  ls
+ 1647  cd A62D-DA96/
+ 1648  ls
+ 1649  cp clock/ ~/Desktop/
+ 1650  cp -r clock/ ~/Desktop/
+ 1651  cdcd Desktop/ankit/
+ 1652  cd Desktop/ankit/
+ 1653  javac *.java
+ 1654  rmic AdderRemote.java
+ 1655  rmic AdderRemote
+ 1656  rmiregistry 9000
+ 1657  cd Desktop/ankit/
+ 1658  java MyClient 
+ 1659  lsusb
+ 1660  ls -a /media/ankit/
+ 1661  cd /media
+ 1662  cd ankit/desktop
+ 1663  ls
+ 1664  cd ~Desktop
+ 1665  cd Desktop/
+ 1666  python sefinalproject.py
+ 1667  python postreader.py
+ 1668  cd /home/ankit/Dropbox/Apps/Heroku/postscrapper
+ 1669  python postreader.py
+ 1670  python postreader.py > op.txt
+ 1671  python postreader.py
+ 1672  cd /home/ankit/Dropbox/Apps/Heroku/postscrapper
+ 1673  python postreader.py
+ 1674  cd /home/ankit/Dropbox/Apps/Heroku/postscrapper
+ 1675  python postreader.py
+ 1676  python app.py
+ 1677  python postreader.py
+ 1678  cd /home/ankit/Dropbox/Apps/Heroku/postscrapper
+ 1679  python postreader.py
+ 1680  cd ..
+ 1681  cd /home/ankit/Dropbox/se project/se project code
+ 1682  /home/ankit/Dropbox/se\ project/se\ project\ code
+ 1683  cd /home/ankit/Dropbox/seproject/seprojectcode
+ 1684  python postreader.py
+ 1685  cd /home/ankit/Dropbox/seproject/seprojectcode
+ 1686  python postreader.py
+ 1687  cd android-studio/bin/
+ 1688  ./studio.sh 
+ 1689  curl -F text=nytimes https://postscrapper.herokuapp.com/post
+ 1690  curl  https://postscrapper.herokuapp.com/post
+ 1691  curl -F text=nytimes https://postscrapper.herokuapp.com/post
+ 1692  cd Desktop
+ 1693  javac test.java 
+ 1694  java test 
+ 1695  curl -F text=nytimes https://postscrapper.herokuapp.com/post
+ 1696  cd ..
+ 1697  git clone https://android.googlesource.com/platform/frameworks/volley
+ 1698  1
+ 1699  git clone https://android.googlesource.com/platform/frameworks/volley
+ 1700  cd android-studio/bin
+ 1701  ./studio.sh 
+ 1702  cd android-studio/bin
+ 1703  ./studio.sh 
+ 1704  cd AndroidStudioProjects/
+ 1705  ls
+ 1706  cd Fbtry
+ 1707  git init
+ 1708  git add
+ 1709  git add .
+ 1710  git commit -am "initial commit"
+ 1711  git remote add origin https://github.com/ankit96/fbfeeder
+ 1712  git push -u origin master
+ 1713  git pull
+ 1714  git push -u origin master
+ 1715  git pull fbfeeder
+ 1716  git pull https://github.com/ankit96/fbfeeder
+ 1717  python postreader.py
+ 1718  cd AndroidStudioProjects/
+ 1719  cd bin
+ 1720  cd ..
+ 1721  cd android-studio/
+ 1722  cd n=bin
+ 1723  cd bin
+ 1724  ./studio.sh 
+ 1725  cd android-studio/binn
+ 1726  cd android-studio/bin
+ 1727  ./studio.sh 
+ 1728  cd Desktop/
+ 1729  python postreader.py
+ 1730  cd Desktop/
+ 1731  python postreader.py
+ 1732  cd android-studio/bin
+ 1733  ./studio.sh 
+ 1734  cd android-studio/bin
+ 1735  ./studio.sh 
+ 1736  cd android-studio/bin
+ 1737  ./studio.sh 
+ 1738  cd AndroidStudioProjects/
+ 1739  cd fbtry
+ 1740  ls
+ 1741  cd Fbtry
+ 1742  git push
+ 1743  git push origin https://github.com/ankit96/fbfeeder
+ 1744  git push origin fbfeeder
+ 1745  git push master fbfeeder
+ 1746  git push -u origin master
+ 1747  ls -a
+ 1748  git push history
+ 1749  history
+ 1750  history > op.txt
