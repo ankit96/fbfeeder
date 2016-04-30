@@ -136,7 +136,7 @@ leo messi*/
     {
 
 
-        final String url = "https://postscrapper.herokuapp.com/post";
+        final String url = "";
 
         new Thread() {
             public void run() {
