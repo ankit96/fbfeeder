@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.github.androidprogresslayout/library/2.0.2/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-b20ff239ccc4fb544f8d6f28531300a3b4030664.jar" />
-    </item>
-    <item
-        jar="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-d12d7e58ac037e081be99eac038b814fea7b1995.jar" />
+        sha1="eeda80a428ddec0d48440ccc686b6707a2eb8d4d">
+        <dex dex="/home/ankit/AndroidStudioProjects/Fbtry/app/build/intermediates/pre-dexed/debug/classes-8bcbf3e7ca715ccd27a02a240abd3ffec8590028.jar" />
     </item>
 
 </items>

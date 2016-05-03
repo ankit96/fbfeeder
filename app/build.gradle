@@ -25,6 +25,7 @@ dependencies {
     //   testCompile 'com.github.afollestad:bridge:3.2.1'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
+    compile 'com.github.androidprogresslayout:library:2.0.2@aar'
 }
 
 
