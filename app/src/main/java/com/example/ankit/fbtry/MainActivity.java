@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity //implements View.OnClickLis
     {
 
 
-        final String url = "https://postscrapper.herokuapp.com/post";
+        final String url = "";
 
 
         new Thread() {
