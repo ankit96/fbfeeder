@@ -215,8 +215,9 @@ public class MainActivity extends AppCompatActivity //implements View.OnClickLis
     public void fetchdata(final String page)
     {
 
-        Log.e("tikna",page);
+
         final String url = "https://postscrapper.herokuapp.com/post";
+
 
         new Thread() {
             public void run() {
